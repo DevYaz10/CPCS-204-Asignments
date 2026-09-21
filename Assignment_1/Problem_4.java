@@ -26,17 +26,14 @@ class Solution
 	public static Node clone(Node head)
 	{
 		// Write your code here...
-		// an empty list has no nodes to copy
 		if (head == null)
 		{
 			return null;
 		}
 
-		// the first node of the copy is new, and holds the first value
 		Node newHead = new Node(head.data);
 		Node newHelpPtr = newHead;
 
-		// walk the rest of the original, making one new node per value
 		Node helpPtr = head.next;
 
 		while (helpPtr != null)
