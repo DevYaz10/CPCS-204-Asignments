@@ -1,4 +1,3 @@
-package Tests;
 /*
 Course : CPCS 204
 Name : YAZEED HASSAN TAIFI
